@@ -1,1 +1,1 @@
-Readme
+echo "Hello, world"
