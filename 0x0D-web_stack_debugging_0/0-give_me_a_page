@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Fix my server with these magic 2 lines
+#Fix my server with these magic 2 lines
 docker pull holbertonschool/265-0
 docker images
 docker ps
