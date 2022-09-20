@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#COMMENT
+docker pull holbertonschool/265-0
+docker images
+docker ps
+curl 0:8080
+sudo docker exec -it holbertonschool/265-0 /bin/bash
+ps aux | grep apache
+service apache2 start
