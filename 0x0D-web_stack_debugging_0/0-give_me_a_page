@@ -1,3 +1,9 @@
 #!/usr/bin/env bash
 # Script that turns on an Apache Server
+docker pull holbertonschool/265-0
+docker images
+docker ps
+curl 0:8080
+sudo docker exec -it holbertonschool/265-0 /bin/bash
+ps aux | grep apache
 service apache2 start
